@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="E:/LearnJava2023/test 2023.11.04/OrangeTest">
+        <classes>
+<!--            <class name="OrangeHRM.AssertOrg">-->
+<!--                <methods>-->
+<!--                    <include name="urlVerification"/>-->
+<!--                    <include name="loginToSystem1"/>-->
+<!--                    <include name="loginToSystem2"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+            <class name="OrangeHRM.TestOrange">
+                <methods>
+                    <include name="launchApp"/>
+                    <include name="login"/>
+                    <include name="navigateToMyInfo"/>
+                    <include name="verifyMyInfo"/>
+                    <include name="verifyLogin"/>
+                    <include name="navigateAdminPanel"/>
+                    <include name="addSystemUser"/>
+<!--                    <include name="pIMPanel"/>-->
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
